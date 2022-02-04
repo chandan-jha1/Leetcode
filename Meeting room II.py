@@ -11,6 +11,7 @@ class Solution:
     @param intervals: an array of meeting time intervals
     @return: the minimum number of conference rooms required
     """
+    # TC = O(NlogN)+O(N), SC = O(N)
     def minMeetingRooms(self, intervals):
         # Write your code here
         st = []
